@@ -1,0 +1,97 @@
+.todos{
+  display: grid;
+  grid-template-columns:  1fr;
+  gap: 1rem;
+  margin-top: 0px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 470px) {
+  .todos {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .todos {
+      grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+
+
+#titulo{
+    text-align: center;
+    text-transform: uppercase; 
+    margin-top: 50px; 
+    margin-bottom: 0;  
+}
+.normal{
+  background-image: var(--back-normal);
+  
+}
+.fire{
+  background-image: var(--back-fire);
+  color: #492C35;
+ 
+}
+.water{
+  background-image: var(--back-water);
+  
+}
+.grass{
+  background-image: var(--back-grass);
+}
+.electric{
+  background-image: var(--back-electric);
+}
+.ice{
+  background-image: var(--back-ice);
+}
+.fighting{
+  background-image: var(--back-fighting);
+  color: var(--clr-white);
+}
+.poison{
+  background-image: var(--back-poison);
+  color: var(--clr-white);
+}
+.ground{
+  background-image: var(--back-ground);
+}
+.flying{
+  background-image: var(--back-flying);
+}
+.psychic{
+  background-image: var(--back-psychic);
+  
+}
+.bug{
+  background-image: var(--back-bug);
+}
+.rock{
+  background-image: var(--back-rock);
+  
+}
+.ghost{
+  background-image: var(--back-ghost);
+  color: var(--clr-white);
+}
+.dark{
+  background-image: var(--back-dark);
+  color: var(--clr-white);
+}
+.dragon{
+  background-image: var(--back-dragon);
+  color: var(--clr-white);
+}
+.steel{
+  background-image: var(--back-steel);
+}
+.fairy{
+  background-image: var(--back-fairy);
+}
+

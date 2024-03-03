@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-black: #1c1c1c;
+    --clr-gray: #ececec;
+    --clr-white: #f7f7f7;
+
+    --type-normal: #A8A878;
+    --type-fire: #F08030;
+    --type-water: #6890F0;
+    --type-grass: #78C850;
+    --type-electric: #F8D030;
+    --type-ice: #98D8D8;
+    --type-fighting: #C03028;
+    --type-poison: #A040A0;
+    --type-ground: #E0C068;
+    --type-flying: #A890F0;
+    --type-psychic: #F85888;
+    --type-bug: #A8B820;
+    --type-rock: #B8A038;
+    --type-ghost: #705898;
+    --type-dark: #705848;
+    --type-dragon: #7038F8;
+    --type-steel: #B8B8D0;
+    --type-fairy: #F0B6BC;
+
+    --back-normal: linear-gradient(180deg, #dace8a 0, #c1bc81 25%, #a8a878 50%, #91946e 75%, #7d8266 100%);
+    --back-fire: linear-gradient(165deg, #f7f220 0, #ffe517 8.33%, #ffd516 16.67%, #ffc21c 25%, #ffad24 33.33%, #ff972a 41.67%, #f07f2f 50%, #de6932 58.33%, #ce5635 66.67%, #bf4638 75%, #b2383c 83.33%, #a82e40 91.67%, #9f2746 100%);
+    --back-water: linear-gradient(175deg, #dbffff 0, #688ff0 50%, #122a4f 100%);
+    --back-grass: linear-gradient(175deg, #fcf240 0, #e4ee42 10%, #cae845 20%, #afdf49 30%, #94d54d 40%, #78c850 50%, #5cbb53 60%, #40af56 70%, #1da559 80%, #009c5d 90%, #009461 100%);
+    --back-electric: linear-gradient(185deg, #ffff66 0, #ffff52 16.67%, #fffd40 33.33%, #f8d030 50%, #d4a522 66.67%, #b38118 83.33%, #956210 100%);
+    --back-ice: linear-gradient(185deg, #c3ffff 0, #b6ffff 12.5%, #aaffff 25%, #a1f4ee 37.5%, #98d8d8 50%, #90bdc0 62.5%, #89a6aa 75%, #839295 87.5%, #7c8283 100%);
+    --back-fighting:linear-gradient(350deg, #ef8d00 0, #ef7d00 10%, #eb6c0e 20%, #e1591d 30%, #d34524 40%, #c03028 50%, #ac192a 60%, #99002b 70%, #89002c 80%, #7a002e 90%, #6e0030 100%);
+    --back-poison:linear-gradient(175deg, #e374b4 0, #d267b1 16.67%, #bc56aa 33.33%, #a040a0 50%, #822b96 66.67%, #651e90 83.33%, #491a8e 100%);
+    --back-ground: linear-gradient(180deg, #ffff94 0, #ffff85 16.67%, #fde376 33.33%, #e0c068 50%, #c19f5a 66.67%, #a4824f 83.33%, #896a44 100%);
+    --back-flying:linear-gradient(180deg, #ffd8ff 0, #eab6ff 25%, #a890f0 50%, #6f6ab1 75%, #42487b 100%);
+    --back-psychic:linear-gradient(160deg, #ffa577 0, #ff9680 10%, #ff8787 20%, #ff778b 30%, #ff678b 40%, #f85888 50%, #d94b83 60%, #bd407d 70%, #a53979 80%, #8f3475 90%, #7c3173 100%);
+    --back-bug:linear-gradient(175deg, #fffd3c 0, #fff132 12.5%, #f4e12a 25%, #cece24 37.5%, #a8b820 50%, #85a21d 62.5%, #668d1c 75%, #4c7c1b 87.5%, #356c1b 100%);
+    --back-rock:linear-gradient(175deg, #ffff62 0, #e8d54d 25%, #b8a038 50%, #876f25 75%, #5b4615 100%);
+    --back-ghost: linear-gradient(175deg, #fda0ff 0, #ce8bea 16.67%, #9e73c3 33.33%, #705898 50%, #473e6d 66.67%, #272647 83.33%, #101227 100%);
+    --back-dark:linear-gradient(175deg, #aba567 0, #aa9c63 8.33%, #a6915e 16.67%, #9e845a 25%, #927754 33.33%, #83684e 41.67%, #705847 50%, #5c493f 58.33%, #4a3d38 66.67%, #3b3331 75%, #2d2b2b 83.33%, #222525 91.67%, #1a2020 100%);
+    --back-dragon:linear-gradient(45deg, rgb(24, 47, 197), rgb(197, 21, 21));
+    --back-steel:linear-gradient(175deg, #9fc1ba 0, #9dc1bd 3.57%, #9cc1c0 7.14%, #9cc1c3 10.71%, #9cc0c6 14.29%, #9dc0c9 17.86%, #9ebfcb 21.43%, #a0bfcd 25%, #a2becf 28.57%, #a5bdd0 32.14%, #a8bcd1 35.71%, #acbbd1 39.29%, #b0bad1 42.86%, #b4b9d1 46.43%, #b8b8d0 50%, #bcb7cf 53.57%, #c0b6cd 57.14%, #c4b5cb 60.71%, #c7b4c8 64.29%, #cab3c6 67.86%, #cdb3c3 71.43%, #cfb2c0 75%, #d1b2bc 78.57%, #d2b2b9 82.14%, #d3b2b6 85.71%, #d4b2b3 89.29%, #d4b2b0 92.86%, #d3b3ad 96.43%, #d2b3aa 100%);
+    --back-fairy: linear-gradient(175deg, #fff8f1 0, #fef3ec 6.25%, #fdede5 12.5%, #fce7de 18.75%, #fbdfd7 25%, #f9d6cf 31.25%, #f7ccc8 37.5%, #f4c1c2 43.75%, #f0b5bc 50%, #eba9b8 56.25%, #e59fb6 62.5%, #de96b6 68.75%, #d68fb8 75%, #cd89bb 81.25%, #c385be 87.5%, #b783c3 93.75%, #aa82c7 100%);
+
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color: var(--clr-gray);
+    min-height: 100vh;
+}
+header{
+    padding-block: 1rem;
+    box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+    background: linear-gradient(45deg, rgb(64, 84, 219), rgb(0, 164, 189));
+    backdrop-filter: blur(10px);
+    gap: 1rem;
+    
+}
