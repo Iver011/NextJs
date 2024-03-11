@@ -11,6 +11,7 @@
     padding-inline: 1rem;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 .imagen{
     width: 250px;

@@ -49,13 +49,13 @@ export default function Home() {
       <div className={`${styles.todos} `}>
       {filteredPokemon.length > 0 ? (
         filteredPokemon.map(pokemon => (
-          <PokeCard key={pokemon.id} id={pokemon.id} name={pokemon.name} image={pokemon.sprites.front_default} types={pokemon.types}  />
+          <PokeCard key={pokemon.id} id={pokemon.id} name={pokemon.name} image={pokemon.sprites.other["official-artwork"].front_default} types={pokemon.types}  />
         ))
       ) : (
         
         pokemonData.map(pokemon => (
           
-          <PokeCard key={pokemon.id} id={pokemon.id} name={pokemon.name} image={pokemon.sprites.front_default} types={pokemon.types}  />
+          <PokeCard key={pokemon.id} id={pokemon.id} name={pokemon.name} image={pokemon.sprites.other["official-artwork"].front_default} types={pokemon.types}  />
           
         ))
       )}</div>

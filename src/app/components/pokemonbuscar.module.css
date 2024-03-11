@@ -17,4 +17,5 @@
     background-color: var(--type-fire);
     border-radius: 0 15px 15px 0;
     border: 0;
+    cursor: pointer;
 }
